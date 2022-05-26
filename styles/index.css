@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logoContainer h2,
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.icons {
+    gap: 20px;
+}
+
+.btnIcons {
+    border-radius: 100%;
+    padding: 3px 4px 3px 4px;
+    border: solid 2px black;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+
+.btnIcons:active, .btnIcons:focus {
+    border-color: green;
+}
+
+.iconValue {
+    background-color: black;
+    transition: all 0.2s;
+}
+
+.btnIcons:active .iconValue, .btnIcons:focus .iconValue {
+    background-color: green;
+}
+
+.add {
+    gap: 10px;
+}
+
+main img {
+    width: 100%;
+    background-color: #F1F8F6;
+    padding: 350px 0 0 0;
+    z-index: 5;
+}
+
+main .bannerSearch {
+    z-index: 10;
+    top: 120px;
+    left: 15%;
+    width: 40%;
+}
+
+.search {
+    gap: 10px;
+    padding: 2% 0 2% 2%;
+    width: 475px;
+    background-color: white;
+}
+
+.search input, select{
+    border: none;
+}
+
+.buttonGroup{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.buttonGroup:focus{
+    background-color: green;
+    border: none;
+}
+
+.buttonGroup:hover{
+    border: none;
+}
+.btn-group{
+    gap: 10px;
+}
